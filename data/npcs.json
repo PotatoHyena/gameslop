@@ -1,0 +1,9 @@
+[
+  { 
+    "id": "old_man", 
+    "name": "Старик", 
+    "dialogues": ["Помоги мне найти мою корову."], 
+    "quests": [], 
+    "isFriendly": true 
+}
+]

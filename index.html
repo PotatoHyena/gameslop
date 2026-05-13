@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8" />
+<title>Текстовая приключенческая игра </title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="game">
+  <h2>Текстовая приключенческая игра </h2>
+  <div id="output" aria-live="polite"></div>
+  <div class="controls">
+    <input id="cmd" type="text" placeholder="..." />
+    <button id="send">Отправить</button>
+    <button id="save">Сохранить</button>
+    <button id="load">Загрузить</button>
+  </div>
+  <div id="status">
+    <div>Игрок: <span id="playerName">—</span></div>
+    <div>HP: <span id="hp">0</span> | Уровень: <span id="lvl">0</span> | EXP: <span id="exp">0</span></div>
+    <div class="inventory">Инвентарь: <span id="inv">—</span></div>
+    <div>Локация: <span id="loc">—</span></div>
+  </div>
+</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>

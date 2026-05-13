@@ -1,0 +1,16 @@
+[
+  { 
+    "id": "potion_small", 
+    "name": "Малое зелье", 
+    "description": "Восстанавливает 20 HP", 
+    "effect": { "type": "heal", "value": 20 }, "weight": 1, 
+    "equipSlot": null 
+},
+
+  { "id": "sword_wood", 
+  "name": "Деревянный меч", 
+  "description": "Слабый урон (+2)", 
+  "effect": { "type": "equip", "value": 2 }, "weight": 3, 
+  "equipSlot": "hand" 
+}
+]

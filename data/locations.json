@@ -1,0 +1,19 @@
+[
+  { 
+    "id": "village", 
+    "name": "Деревня", 
+    "description": "Маленькая деревенька. ", 
+    "exits": { "north": "forest" }, 
+    "items": ["potion_small"], 
+    "npcs": ["old_man"] 
+},
+  
+  { 
+    "id": "forest", 
+    "name": "Лес", 
+    "description": "Тёмный лес. Тут водятся волки.", 
+    "exits": { "south": "village" }, 
+    "items": ["sword_wood"], 
+    "npcs": [] 
+}
+]
